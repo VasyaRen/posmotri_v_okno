@@ -45,6 +45,7 @@ ol {
   grid-template-columns: repeat(2, auto);
   align-items: end;
   column-gap: 30px;
+  max-width: 1140px;
 }
 
 .result {
@@ -55,7 +56,7 @@ ol {
   position: relative;
   width: 711px;
   height: 386px;
-  margin-bottom: 19px;
+  margin-bottom: 18px;
 }
 
 .result__video {
@@ -79,6 +80,7 @@ ol {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
+  gap: 38px;
 }
 
 .search-form__fieldset {
@@ -110,8 +112,7 @@ ol {
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
   color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: 400;
+  font-family: inherit;
   font-size: 18px;
   line-height: 21.6px;
   background-color: transparent;
@@ -156,9 +157,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .search-form__label-text {
   margin-left: 1.5px;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: 400;
-  font-size: 18px;
   line-height: 21.6px;
 }
 
@@ -172,7 +170,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   align-self: end;
   border: 1px solid currentColor;
   color: currentColor;
-  font-family: "Fira Sans Condensed", sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 21.6px;
@@ -199,7 +197,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 }
 
 .search-form__submit-button {
-  padding: 6px 73.5px;
+  padding: 5px 72.5px;
 }
 
 .content__details {
@@ -274,7 +272,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
   max-width: 200px;
   margin-bottom: 6px;
   overflow: hidden;
-  color: #fff;
   font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 30px;
@@ -286,8 +283,6 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 
 .content__video-card-description {
   max-width: 200px;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-weight: 400;
   line-height: 16.2px;
 }
 
